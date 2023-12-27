@@ -1,64 +1,69 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Cheat Sheet for HTML Commands</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-    <h1>Table Tags</h1>
-  
-<body>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>HTML Table Reference</h1>
+    <h2>Table Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;thead&gt;</span></td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>Table Data</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <ul class="navigation">
-    <li class="active">Action List</li>
-    <li>Profiles</li>
-    <li>Settings</li>
-  </ul>
-
-  <div class="search">Search the table</div>
-
-
-<table>
-  <thead>
-    <tr> <!-- Row 1 -->
-      <th scope="col">Company Name</th>
-      <th scope="col">Number of Items to Ship</th>
-      <th scope="col">Next Action</th>
-      </tr>
-  </thead>
-  <tbody>
-    <tr> <!-- Row 2 -->
-      <td>Adam's Greenworks</td>
-      <td>14</td>
-      <td>Package Items</td>
-    </tr>
-    <tr><!-- Row 3 -->
-      <td colspan="2" rowspan="2">Davie's Burgers</td>
-      <td>2</td>
-      <td>Send Invoice</td>
-    </tr><!-- Row 4 -->
-      <td>Baker's Bike Shop</td>
-      <td>3</td>
-      <td>Send Invoice</td>
-    <tr><!-- Row 5 -->
-      <td>Miss Sally's Southern</td>
-      <td>4</td>
-      <td>Ship</td>
-    </tr>
-    <tr><!-- Row 6 -->
-      <td>Summit Resort Rentals</td>
-      <td>4</td>
-      <td>Ship</td>
-    </tr>
-    <tr><!-- Row 7 -->
-      <td>Strike Fitness</td>
-      <td>1</td>
-      <td>Enter Order</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <td>Total</td>
-    <td>28</td>
-  </tfoot>
-</table>
-</body>
+    <h2>Table Attributes</h2>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">colspan</span></td> 
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span.</td>
+          </tr>
+        <tr>
+          <td><span class="code">rowspan</span></td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
